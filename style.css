@@ -23,10 +23,11 @@ overflow-x: hidden;
   }
   
   nav {
+
     display: flex;
     justify-content:space-around;
     align-items:center ;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family: system-ui;
     background: #23232e;
     height: 8vh;
   }
@@ -66,7 +67,7 @@ overflow-x: hidden;
       overflow-x: hidden;
     }
     .nav-list {
-      position: absolute;
+      position:absolute ;
       top: 8vh;
       right: 0;
       width: 40vh;
@@ -121,15 +122,15 @@ overflow-x: hidden;
    align-items: center;
   }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 7px){
   .nav-list{
-    width: 100%;
+    width: 10px
     flex-direction: column;
   }
 }
 
 .container{
-display: flex;
+position: absolute;
 justify-content: left;
 transform:translateX(-10%);
 transform: translateY(-10%);
@@ -215,11 +216,10 @@ color: white;
 }
 
 .container2{
-  display: flex;
-  float: left;
-  justify-content: left;
-  transform:translatey(-112%);
 
+  justify-content: left;
+  transform:translateX(-10%);
+  transform: translateY(-10%);
   }
 
 
