@@ -122,10 +122,10 @@ overflow-x: hidden;
    align-items: center;
   }
 
-@media screen and (max-width: 7px){
+@media screen and (max-width: 1%){
   .nav-list{
-    width: 10px
-    flex-direction: column;
+    width: 1%;
+   
   }
 }
 
@@ -217,9 +217,9 @@ color: white;
 
 .container2{
 
-  justify-content: left;
-  transform:translateX(-10%);
-  transform: translateY(-10%);
+  justify-content: right;
+  transform:translateX(+25%);
+
   }
 
 
