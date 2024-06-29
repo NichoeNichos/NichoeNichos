@@ -216,7 +216,8 @@ color: white;
 
 .container2{
   display: flex;
-  justify-content: right;
+  float: left;
+  justify-content: left;
   transform:translatey(-112%);
 
   }
